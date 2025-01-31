@@ -41,7 +41,7 @@ public class Task1 {
             System.out.println("Highest Grade: " + highest);
             System.out.println("Lowest Grade: " + lowest);
         }
-
+// closing the scanner object to avoid leaks in the code
         scanner.close();
     }
 
